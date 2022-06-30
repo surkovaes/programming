@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../assets/fonts/Roboto-Light.ttf);
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.header_bg{
+  background: url("https://surkovaes.github.io/assets/images/web-background.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.header_bg:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
+  z-index: -1;
+}
+
+.header_content{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.header_content_title{
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0;
+}
+
+.navbar .navbar-nav > li > a, .navbar .navbar-nav > li > a:focus{
+  background-color: transparent;
+  color: #fff;
+}
+
+.nav li a{
+  font-size: 15px;
+  float: right;
+}
+
+.navbar{
+  padding-top:30px;
+}
+
+.navbar-nav {
+  margin: 0px -20px;
+}
+
+.page-section{
+	margin-top: 30px;
+}
+
+.page-section_title{
+  font-size: 35px;
+  color: #273f59;
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-section_title-style{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.button_default{
+  color: #455a64;
+  border: 1px solid #455a64;
+  margin-right: 15px;
+  padding: 12px 55px 12px 55px;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.button_default:hover{
+  background-color: #7F56FD;
+  color: #fff;
+  border: 1px solid #7F56FD;
+}
+
+.portfolio .button{
+  display: inline-block;
+  padding: 12px 45px 8px 45px;
+  margin-bottom: 20px;
+}
+
+.portfolio_button-group{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #27353B;
+}
+
+.footer_copyright{
+  font-size: 14px;
+  color: #fff;
+  font-family: Roboto-Light;
+}
